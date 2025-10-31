@@ -128,7 +128,7 @@ ol, ul {
     margin: 10px;
     border-radius: 20px;
     background: #ffffff;
-    position: relative;
+    height: 450px;
 }
 
 .blue_block, .red_block, .green_block {
@@ -140,26 +140,32 @@ ol, ul {
 .blue_block {
     border-color: blue;
     position: relative;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
+    left: -100px;
 }
 
 .red_block {
     border-color: red;
     position: relative;
-    left: 100px;
-    right: 0px;
     top: -100px;
-    bottom: 0px;
 }
 
 .green_block {
     border-color: green;
     position: relative;
-    left: 200px;
-    right: 0px;
     top: -200px;
+    left: 100px;
+}
+
+.container-5 {
+    width: 200px;
+    margin: auto;
+    padding: 0px;
+}
+
+.image-fixed {
+    width: 100px;
+    height: 100px;
+    position: fixed;
     bottom: 0px;
+    right: 0px;
 }
